@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+
+  console:
+    image: 'otf-to-ttf-converter'
+    build:
+      context: ./
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./fonts:/data/converter/cmap_modified
+      - ./otf:/data/otf

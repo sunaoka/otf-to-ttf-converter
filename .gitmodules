@@ -1,0 +1,3 @@
+[submodule "convert-otf-to-ttf-and-fix-cmap"]
+	path = convert-otf-to-ttf-and-fix-cmap
+	url = https://github.com/sunaoka/convert-otf-to-ttf-and-fix-cmap.git
